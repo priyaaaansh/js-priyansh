@@ -31,6 +31,23 @@
 //     console.log("hello world");
 // }
 
+// *****************************************************************
+
+// Stack (Primitive), Heap(Non-Primitive)
 
 
+let myYoutubeName = "Priyansh the Coder"
+let anotherName = myYoutubeName
+anotherName = "coding karega kya ?"
 
+console.log(myYoutubeName);
+console.log(anotherName); 
+
+let userOne = {
+    email: "user@google.com",
+    upi: "user@upi"
+}
+let userTwo = userOne
+userTwo.email = "priyansh@google.com"
+console.log(userOne.email);
+console.log(userTwo.email);
