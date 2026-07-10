@@ -69,3 +69,4 @@ function returnSecondValue(yoyo){
     return yoyo[2]
 }
 console.log(returnSecondValue(myNew));
+
